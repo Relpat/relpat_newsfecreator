@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "GeorgRinger\\RelpatNewsfecreator\\": "Classes"
+      "Relpat\\RelpatNewsfecreator\\": "Classes"
     }
   },
   "autoload-dev": {
