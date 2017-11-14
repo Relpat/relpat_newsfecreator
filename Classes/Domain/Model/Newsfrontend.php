@@ -1,4 +1,5 @@
 <?php
+
 namespace Relpat\RelpatNewsfecreator\Domain\Model;
 
 /***
@@ -17,4 +18,4 @@ namespace Relpat\RelpatNewsfecreator\Domain\Model;
  */
 class Newsfrontend extends \GeorgRinger\News\Domain\Model\News
 {
-    }
+}
