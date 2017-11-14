@@ -1,0 +1,21 @@
+
+config.tx_extbase {
+  persistence {
+    classes {
+
+      GeorgRinger\News\Domain\Model\News {
+        subclasses {
+          Tx_RelpatNewsfecreator_Newsfrontend = Relpat\RelpatNewsfecreator\Domain\Model\Newsfrontend
+          
+        }
+      }
+      Relpat\RelpatNewsfecreator\Domain\Model\Newsfrontend {
+        mapping {
+          tableName = tx_news_domain_model_news
+          recordType = Tx_RelpatNewsfecreator_Newsfrontend
+        }
+      }
+
+    }
+  }
+}
